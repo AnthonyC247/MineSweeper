@@ -22,7 +22,7 @@ class MinesweeperGUI:
         self.mines = set()
 
         self.root = tk.Tk()
-        self.root.title("Minesweeper")
+        self.root.title("MineSweeper")
         
         self.create_board()
         self.place_mines()
